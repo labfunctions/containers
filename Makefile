@@ -1,6 +1,6 @@
 .EXPORT_ALL_VARIABLES:
 REGISTRY=docker.io
-PROJECT=nuxion
+PROJECT=labfunctions
 
 build-jupyter-minimal:
 	ROOT=nvidia/cuda:11.5.1-runtime-ubuntu20.04
