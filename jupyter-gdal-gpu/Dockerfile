@@ -26,6 +26,7 @@ RUN apt-get update \
 	python3-dev \
 	python3-pip \
 	python3-setuptools \
+	libgl1 \
 	wget \
 	&& pip install --upgrade pip \
 	&& useradd -l -m -s /bin/bash -N -u "${NB_UID}" "${NB_USER}"
